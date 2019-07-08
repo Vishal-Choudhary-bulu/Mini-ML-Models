@@ -58,8 +58,8 @@ sns.distplot(res, hist = False, color = "b" , label ="predicted", ax = ax1)
 plt.show(sns)
 
 
-# f = np.polyfit(df['hot'],res,2)
+f = np.polyfit(df['hot'],res,2)
 
-# p = np.poly1d(f)
+p = np.poly1d(f)
 
-# print(p)
+print(p)
